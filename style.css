@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.bodyText {
+  font-family: "Plus Jakarta Sans";
+  font-size: x-large;
+  font-weight: 150;
+  font-style: normal;
+  line-height: 35px;
+}
+
+.topHeading {
+  font-family: "La Belle Aurore", cursive;
+  font-size: 40px;
+  font-weight: 100px;
+  font-style: normal;
+  color: #23bc93;
+}
+
+.subHeading {
+  font-weight: 600;
+  font-style: bold;
+  font-family: "Plus Jakarta Sans";
+  font-size: 65px;
+}
+
+.buttonStyle {
+  background-color: #fd4c5c;
+  border: none;
+  border-radius: 7px;
+  font-size: large;
+  color: white;
+  padding: 30px;
+}
+
+.buttonText {
+  font-family: "Plus Jakarta Sans";
+  font-size: x-large;
+  font-weight: 600;
+  font-style: bold;
+}
+
+.iconColor {
+  color: #4c6e70;
+}
+
+.icontextColor {
+  color: #64bde0;
+}
+
+.iconText {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.bodyTextalign {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.bodyContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-top: 150px;
+  margin-left: 180px;
+}
+
+.imageStyle {
+  border-radius: 20px;
+  object-fit: cover;
+  height: 1100px;
+  width: 800px;
+}
+
+.imageContainer {
+  height: 700px;
+  width: 200px;
+}
+
+.floatBox {
+  border-radius: 20px;
+  width: 320px;
+  height: 400px;
+  background-color: #23bc93;
+  position: absolute;
+  top: 230px;
+  left: 1400px;
+}
+
+.boxColor {
+  color: white;
+}
+
+.boxalign {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.boxImage {
+  display: flex;
+  flex-direction: row;
+}
+
+.planeRotate{
+    rotate: 30deg;
+}
